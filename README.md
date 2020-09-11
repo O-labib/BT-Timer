@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/BT-Timer.svg?style=flat)](https://cocoapods.org/pods/BT-Timer)
 [![Platform](https://img.shields.io/cocoapods/p/BT-Timer.svg?style=flat)](https://cocoapods.org/pods/BT-Timer)
 
-## Example
+## Timer
+### Setup
+![Alt Text](https://media.giphy.com/media/ZXeHQZzYYhHZIosaSt/giphy.gif)
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+
+## Stopwatch
+![Alt Text](https://media.giphy.com/media/Y2tTdRujHE9RpZuEL2/giphy.gif)
+
 
 ## Installation
 
@@ -22,7 +26,7 @@ pod 'BT-Timer'
 
 ## Author
 
-o.labib1995@gmail.com, o.labib1995@gmail.com
+Omar Labib, o.labib1995@gmail.com
 
 ## License
 
