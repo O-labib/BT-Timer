@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BT-Timer'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'An off-the-shelf timer/stopwatch to use in your iOS apps'
   
   s.description      = <<-DESC
