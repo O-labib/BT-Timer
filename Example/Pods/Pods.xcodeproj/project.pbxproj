@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047E8BBE250BDE97006870EE /* BTstopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8BBD250BDE97006870EE /* BTstopwatch.swift */; };
+		047E8BCE250BE92E006870EE /* BTstopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8BCD250BE92E006870EE /* BTstopwatch.swift */; };
 		1A696DB4193D176FBE9C47E05346E7D3 /* Pods-BT-Timer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA762B855130EFB2EEAFEFAF018A2CAA /* Pods-BT-Timer_Example-dummy.m */; };
 		3B5712507114BABF7B7792B4364EFC1D /* Pods-BT-Timer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9198E55FB1B46F4E7556A4FA9E5C12 /* Pods-BT-Timer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CC76ABD1251EF1134AE88D93FBC0BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		025B1A9977C35654ACC3265B43A70F54 /* BT-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BT-Timer.release.xcconfig"; sourceTree = "<group>"; };
-		047E8BBD250BDE97006870EE /* BTstopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTstopwatch.swift; sourceTree = "<group>"; };
+		047E8BCD250BE92E006870EE /* BTstopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BTstopwatch.swift; path = "BT-Timer/Classes/BTstopwatch.swift"; sourceTree = "<group>"; };
 		05F64EB63407CA6DBE5BFA47AB83B4C3 /* Pods-BT-Timer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Tests-Info.plist"; sourceTree = "<group>"; };
 		08D9EC145B1F2FBB284E54811D22C584 /* Pods-BT-Timer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Example-Info.plist"; sourceTree = "<group>"; };
 		17E395ECFF5FF8A4C24C1FE69BE47467 /* Pods-BT-Timer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BT-Timer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		B5706520AE658D454DF73F6A519E900F /* BT-Timer */ = {
 			isa = PBXGroup;
 			children = (
-				047E8BBD250BDE97006870EE /* BTstopwatch.swift */,
+				047E8BCD250BE92E006870EE /* BTstopwatch.swift */,
 				66398BE200A63590451876EA1F63BF30 /* BTtimer.swift */,
 				A47C8A4A374FA7A02C271F351A70BF66 /* Pod */,
 				1278D98C6E234FAFEB20EDCE1048FC88 /* Support Files */,
@@ -370,8 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047E8BBE250BDE97006870EE /* BTstopwatch.swift in Sources */,
 				F558BB56DCF7A915B449137D3D6C01F4 /* BT-Timer-dummy.m in Sources */,
+				047E8BCE250BE92E006870EE /* BTstopwatch.swift in Sources */,
 				8EF4FAA2056DDE01DF02C469A980EF51 /* BTtimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
