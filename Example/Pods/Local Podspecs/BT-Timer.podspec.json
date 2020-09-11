@@ -1,0 +1,22 @@
+{
+  "name": "BT-Timer",
+  "version": "0.1.0",
+  "summary": "A short description of BT-Timer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/o.labib1995@gmail.com/BT-Timer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "o.labib1995@gmail.com": "o.labib1995@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/o.labib1995@gmail.com/BT-Timer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BT-Timer/Classes/**/*"
+}

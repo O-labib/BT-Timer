@@ -1,0 +1,16 @@
+PODS:
+  - BT-Timer (0.1.0)
+
+DEPENDENCIES:
+  - BT-Timer (from `../`)
+
+EXTERNAL SOURCES:
+  BT-Timer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BT-Timer: f89de32a71b9285d8c3fe746bcd3d17696f2a2fc
+
+PODFILE CHECKSUM: a5764baaf6251f29ea8efd0e6ca3483e0e667932
+
+COCOAPODS: 1.9.3

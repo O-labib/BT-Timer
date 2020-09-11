@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047E8BBE250BDE97006870EE /* BTstopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E8BBD250BDE97006870EE /* BTstopwatch.swift */; };
+		1A696DB4193D176FBE9C47E05346E7D3 /* Pods-BT-Timer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA762B855130EFB2EEAFEFAF018A2CAA /* Pods-BT-Timer_Example-dummy.m */; };
+		3B5712507114BABF7B7792B4364EFC1D /* Pods-BT-Timer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9198E55FB1B46F4E7556A4FA9E5C12 /* Pods-BT-Timer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CC76ABD1251EF1134AE88D93FBC0BE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		626BD2B64D4BAEF867AE65C0C9E875D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EF4FAA2056DDE01DF02C469A980EF51 /* BTtimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66398BE200A63590451876EA1F63BF30 /* BTtimer.swift */; };
+		A24B146BBCCAFB2DF2228113C6C5A3AF /* Pods-BT-Timer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2687998799A3D5BB474E534AED62DA /* Pods-BT-Timer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE16F97C76D6812E51F5239AD6DDE984 /* BT-Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C6109D2977E8BDA2246411D9A7DC58 /* BT-Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2EFB7ABCE871012937BDE4062FF83A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C2365BA80CB9ECA16B2F37E420456A3D /* Pods-BT-Timer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C314548CDB3BDC0664D803B63F8DA4E2 /* Pods-BT-Timer_Tests-dummy.m */; };
+		F558BB56DCF7A915B449137D3D6C01F4 /* BT-Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B9EB95F90740247B4DF1E0D54CD47B /* BT-Timer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B648869E8F09AF11F98F56D1ABCAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D3F827110A010BB56B9F39D00B885E;
+			remoteInfo = "Pods-BT-Timer_Example";
+		};
+		2BB25AC4B9AF1D79215F8D592648599D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35BC5F7A6AD80A0FB1B795F36FD48727;
+			remoteInfo = "BT-Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025B1A9977C35654ACC3265B43A70F54 /* BT-Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BT-Timer.release.xcconfig"; sourceTree = "<group>"; };
+		047E8BBD250BDE97006870EE /* BTstopwatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTstopwatch.swift; sourceTree = "<group>"; };
+		05F64EB63407CA6DBE5BFA47AB83B4C3 /* Pods-BT-Timer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Tests-Info.plist"; sourceTree = "<group>"; };
+		08D9EC145B1F2FBB284E54811D22C584 /* Pods-BT-Timer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Example-Info.plist"; sourceTree = "<group>"; };
+		17E395ECFF5FF8A4C24C1FE69BE47467 /* Pods-BT-Timer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BT-Timer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EAD582875081C14F214865CDADEF823 /* Pods-BT-Timer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		23B9EB95F90740247B4DF1E0D54CD47B /* BT-Timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BT-Timer-dummy.m"; sourceTree = "<group>"; };
+		2464756559C91518D07ABD1D43D29B04 /* Pods-BT-Timer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BT-Timer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A9198E55FB1B46F4E7556A4FA9E5C12 /* Pods-BT-Timer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BT-Timer_Example-umbrella.h"; sourceTree = "<group>"; };
+		2FCB0CCE7A432F0497F3A8548741EBDF /* BT_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BT_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3193ED93155DBE9D736A11473FCD7C4B /* Pods_BT_Timer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BT_Timer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4289C7760ED769E460E4B592568FDC32 /* Pods-BT-Timer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BT-Timer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2687998799A3D5BB474E534AED62DA /* Pods-BT-Timer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BT-Timer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5768E5AB45364776B3922FB80309468F /* Pods-BT-Timer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BT-Timer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5C5EF557A4903334407A3A7D0379A9E4 /* Pods-BT-Timer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BT-Timer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66398BE200A63590451876EA1F63BF30 /* BTtimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BTtimer.swift; path = "BT-Timer/Classes/BTtimer.swift"; sourceTree = "<group>"; };
+		78C6109D2977E8BDA2246411D9A7DC58 /* BT-Timer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BT-Timer-umbrella.h"; sourceTree = "<group>"; };
+		830C8BAFB6B99A60F3929A6DED60A1DC /* Pods-BT-Timer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BT-Timer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B910D7C61FBA3630C708CBA11B1DCDA /* BT-Timer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "BT-Timer.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8F08D23B299B3C07025E553B0E14D986 /* BT-Timer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BT-Timer-Info.plist"; sourceTree = "<group>"; };
+		9516D7D53533F354D20B0B5AE993AE9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B354142D04DC091023A2F638E281410A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BA762B855130EFB2EEAFEFAF018A2CAA /* Pods-BT-Timer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BT-Timer_Example-dummy.m"; sourceTree = "<group>"; };
+		C20B32457EFA84B1592BD3B092DDA624 /* Pods-BT-Timer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BT-Timer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C314548CDB3BDC0664D803B63F8DA4E2 /* Pods-BT-Timer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BT-Timer_Tests-dummy.m"; sourceTree = "<group>"; };
+		C535B0598445AEC8991A065137FDBD1F /* Pods-BT-Timer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BT-Timer_Tests.modulemap"; sourceTree = "<group>"; };
+		C8E4D8F42324E30B1B093DCE63C1A9A1 /* BT-Timer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "BT-Timer.modulemap"; sourceTree = "<group>"; };
+		CC2C26D9E28A4FFC5F5ED7F3050F8B7F /* BT-Timer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BT-Timer-prefix.pch"; sourceTree = "<group>"; };
+		CC4FCDC94036D2EDF1679030F426761D /* BT-Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BT-Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		D55A9FE74E4D88CBC2D1392C4F3337C6 /* Pods-BT-Timer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BT-Timer_Example.modulemap"; sourceTree = "<group>"; };
+		E1D09F92FB3DECF493613C89306D3C3B /* Pods_BT_Timer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BT_Timer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1899DF30D7A7DD2872F87497A75D33 /* Pods-BT-Timer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BT-Timer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A89CBAA846191BB28DCD9CC8B929E93A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC76ABD1251EF1134AE88D93FBC0BE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB28ECE1BE4C44DFE536C114A454F79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2EFB7ABCE871012937BDE4062FF83A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA4E8DDAF1DF75F2C3694CFC3C6C245A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626BD2B64D4BAEF867AE65C0C9E875D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1278D98C6E234FAFEB20EDCE1048FC88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E4D8F42324E30B1B093DCE63C1A9A1 /* BT-Timer.modulemap */,
+				23B9EB95F90740247B4DF1E0D54CD47B /* BT-Timer-dummy.m */,
+				8F08D23B299B3C07025E553B0E14D986 /* BT-Timer-Info.plist */,
+				CC2C26D9E28A4FFC5F5ED7F3050F8B7F /* BT-Timer-prefix.pch */,
+				78C6109D2977E8BDA2246411D9A7DC58 /* BT-Timer-umbrella.h */,
+				CC4FCDC94036D2EDF1679030F426761D /* BT-Timer.debug.xcconfig */,
+				025B1A9977C35654ACC3265B43A70F54 /* BT-Timer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BT-Timer";
+			sourceTree = "<group>";
+		};
+		15C89172724631B68FA38224C44FD6F5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75FEEFE0E5AE522F23FE05D7DA3DD71C /* Pods-BT-Timer_Example */,
+				FDF1700361B68C310EFDE092DEFE835F /* Pods-BT-Timer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		66CDB70BA3D8D6239924613218840130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FCB0CCE7A432F0497F3A8548741EBDF /* BT_Timer.framework */,
+				E1D09F92FB3DECF493613C89306D3C3B /* Pods_BT_Timer_Example.framework */,
+				3193ED93155DBE9D736A11473FCD7C4B /* Pods_BT_Timer_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68351AA645FE69AF2E93D29B9B1A1652 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5706520AE658D454DF73F6A519E900F /* BT-Timer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		75FEEFE0E5AE522F23FE05D7DA3DD71C /* Pods-BT-Timer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D55A9FE74E4D88CBC2D1392C4F3337C6 /* Pods-BT-Timer_Example.modulemap */,
+				ED1899DF30D7A7DD2872F87497A75D33 /* Pods-BT-Timer_Example-acknowledgements.markdown */,
+				1EAD582875081C14F214865CDADEF823 /* Pods-BT-Timer_Example-acknowledgements.plist */,
+				BA762B855130EFB2EEAFEFAF018A2CAA /* Pods-BT-Timer_Example-dummy.m */,
+				830C8BAFB6B99A60F3929A6DED60A1DC /* Pods-BT-Timer_Example-frameworks.sh */,
+				08D9EC145B1F2FBB284E54811D22C584 /* Pods-BT-Timer_Example-Info.plist */,
+				2A9198E55FB1B46F4E7556A4FA9E5C12 /* Pods-BT-Timer_Example-umbrella.h */,
+				5C5EF557A4903334407A3A7D0379A9E4 /* Pods-BT-Timer_Example.debug.xcconfig */,
+				2464756559C91518D07ABD1D43D29B04 /* Pods-BT-Timer_Example.release.xcconfig */,
+			);
+			name = "Pods-BT-Timer_Example";
+			path = "Target Support Files/Pods-BT-Timer_Example";
+			sourceTree = "<group>";
+		};
+		A47C8A4A374FA7A02C271F351A70BF66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B910D7C61FBA3630C708CBA11B1DCDA /* BT-Timer.podspec */,
+				B354142D04DC091023A2F638E281410A /* LICENSE */,
+				9516D7D53533F354D20B0B5AE993AE9D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B5706520AE658D454DF73F6A519E900F /* BT-Timer */ = {
+			isa = PBXGroup;
+			children = (
+				047E8BBD250BDE97006870EE /* BTstopwatch.swift */,
+				66398BE200A63590451876EA1F63BF30 /* BTtimer.swift */,
+				A47C8A4A374FA7A02C271F351A70BF66 /* Pod */,
+				1278D98C6E234FAFEB20EDCE1048FC88 /* Support Files */,
+			);
+			name = "BT-Timer";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				68351AA645FE69AF2E93D29B9B1A1652 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				66CDB70BA3D8D6239924613218840130 /* Products */,
+				15C89172724631B68FA38224C44FD6F5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF1700361B68C310EFDE092DEFE835F /* Pods-BT-Timer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C535B0598445AEC8991A065137FDBD1F /* Pods-BT-Timer_Tests.modulemap */,
+				17E395ECFF5FF8A4C24C1FE69BE47467 /* Pods-BT-Timer_Tests-acknowledgements.markdown */,
+				C20B32457EFA84B1592BD3B092DDA624 /* Pods-BT-Timer_Tests-acknowledgements.plist */,
+				C314548CDB3BDC0664D803B63F8DA4E2 /* Pods-BT-Timer_Tests-dummy.m */,
+				05F64EB63407CA6DBE5BFA47AB83B4C3 /* Pods-BT-Timer_Tests-Info.plist */,
+				4C2687998799A3D5BB474E534AED62DA /* Pods-BT-Timer_Tests-umbrella.h */,
+				4289C7760ED769E460E4B592568FDC32 /* Pods-BT-Timer_Tests.debug.xcconfig */,
+				5768E5AB45364776B3922FB80309468F /* Pods-BT-Timer_Tests.release.xcconfig */,
+			);
+			name = "Pods-BT-Timer_Tests";
+			path = "Target Support Files/Pods-BT-Timer_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		361C9E812F9DABC6BF8D382B40D53F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24B146BBCCAFB2DF2228113C6C5A3AF /* Pods-BT-Timer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8C7CAE57C1D10DA48198BC1646FEBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5712507114BABF7B7792B4364EFC1D /* Pods-BT-Timer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD4D00EB241C2C717EDF9F8E42009A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE16F97C76D6812E51F5239AD6DDE984 /* BT-Timer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		08D3F827110A010BB56B9F39D00B885E /* Pods-BT-Timer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DF3F6BD1140A8E444354B790860B6FB /* Build configuration list for PBXNativeTarget "Pods-BT-Timer_Example" */;
+			buildPhases = (
+				9E8C7CAE57C1D10DA48198BC1646FEBF /* Headers */,
+				5A1C430009CB48EC2CC91F56B85A4111 /* Sources */,
+				A89CBAA846191BB28DCD9CC8B929E93A /* Frameworks */,
+				D4ACBB0E7BAFFF3990A8F630E12AE664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76EF65287474254836B0C0771A62229 /* PBXTargetDependency */,
+			);
+			name = "Pods-BT-Timer_Example";
+			productName = "Pods-BT-Timer_Example";
+			productReference = E1D09F92FB3DECF493613C89306D3C3B /* Pods_BT_Timer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1E0FB69681DC1DFB707502D365C085B7 /* Pods-BT-Timer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9A9AA92D8C59E144943646483E74168 /* Build configuration list for PBXNativeTarget "Pods-BT-Timer_Tests" */;
+			buildPhases = (
+				361C9E812F9DABC6BF8D382B40D53F30 /* Headers */,
+				EF826182221575C6CE50D1682AD30AC1 /* Sources */,
+				CA4E8DDAF1DF75F2C3694CFC3C6C245A /* Frameworks */,
+				1E3052E224B275AA84DF6777AE66B05E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810420C91F33BCDAB1AA5C1EFDEC5437 /* PBXTargetDependency */,
+			);
+			name = "Pods-BT-Timer_Tests";
+			productName = "Pods-BT-Timer_Tests";
+			productReference = 3193ED93155DBE9D736A11473FCD7C4B /* Pods_BT_Timer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35BC5F7A6AD80A0FB1B795F36FD48727 /* BT-Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBB5ABA76A55A3531134058CAAACDEF /* Build configuration list for PBXNativeTarget "BT-Timer" */;
+			buildPhases = (
+				CFD4D00EB241C2C717EDF9F8E42009A9 /* Headers */,
+				314A3711D7CA0CD9BC55AC7BE763065E /* Sources */,
+				BB28ECE1BE4C44DFE536C114A454F79E /* Frameworks */,
+				C77DBAA53190BDC22AD2A32595485A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BT-Timer";
+			productName = "BT-Timer";
+			productReference = 2FCB0CCE7A432F0497F3A8548741EBDF /* BT_Timer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 66CDB70BA3D8D6239924613218840130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35BC5F7A6AD80A0FB1B795F36FD48727 /* BT-Timer */,
+				08D3F827110A010BB56B9F39D00B885E /* Pods-BT-Timer_Example */,
+				1E0FB69681DC1DFB707502D365C085B7 /* Pods-BT-Timer_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3052E224B275AA84DF6777AE66B05E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77DBAA53190BDC22AD2A32595485A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4ACBB0E7BAFFF3990A8F630E12AE664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		314A3711D7CA0CD9BC55AC7BE763065E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E8BBE250BDE97006870EE /* BTstopwatch.swift in Sources */,
+				F558BB56DCF7A915B449137D3D6C01F4 /* BT-Timer-dummy.m in Sources */,
+				8EF4FAA2056DDE01DF02C469A980EF51 /* BTtimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A1C430009CB48EC2CC91F56B85A4111 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A696DB4193D176FBE9C47E05346E7D3 /* Pods-BT-Timer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF826182221575C6CE50D1682AD30AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2365BA80CB9ECA16B2F37E420456A3D /* Pods-BT-Timer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810420C91F33BCDAB1AA5C1EFDEC5437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BT-Timer_Example";
+			target = 08D3F827110A010BB56B9F39D00B885E /* Pods-BT-Timer_Example */;
+			targetProxy = 04B648869E8F09AF11F98F56D1ABCAF5 /* PBXContainerItemProxy */;
+		};
+		F76EF65287474254836B0C0771A62229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BT-Timer";
+			target = 35BC5F7A6AD80A0FB1B795F36FD48727 /* BT-Timer */;
+			targetProxy = 2BB25AC4B9AF1D79215F8D592648599D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D93E0157A089F8D97BAD765A603DB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4289C7760ED769E460E4B592568FDC32 /* Pods-BT-Timer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BT-Timer_Tests/Pods-BT-Timer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BT-Timer_Tests/Pods-BT-Timer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FF35ED5EE5C23D522E788309A49AB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2464756559C91518D07ABD1D43D29B04 /* Pods-BT-Timer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BT-Timer_Example/Pods-BT-Timer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BT-Timer_Example/Pods-BT-Timer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39FF6131912C3B23E8CF84EEAEA5F358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768E5AB45364776B3922FB80309468F /* Pods-BT-Timer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BT-Timer_Tests/Pods-BT-Timer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BT-Timer_Tests/Pods-BT-Timer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A3587C6EA23C4AE0A781FBE0EB07EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025B1A9977C35654ACC3265B43A70F54 /* BT-Timer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BT-Timer/BT-Timer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BT-Timer/BT-Timer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BT-Timer/BT-Timer.modulemap";
+				PRODUCT_MODULE_NAME = BT_Timer;
+				PRODUCT_NAME = BT_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E6F001A29560C18FAC5D92D3B387C3E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5EF557A4903334407A3A7D0379A9E4 /* Pods-BT-Timer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BT-Timer_Example/Pods-BT-Timer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BT-Timer_Example/Pods-BT-Timer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9F57C17BEEC950AD3642D53BE88C6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC4FCDC94036D2EDF1679030F426761D /* BT-Timer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BT-Timer/BT-Timer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BT-Timer/BT-Timer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BT-Timer/BT-Timer.modulemap";
+				PRODUCT_MODULE_NAME = BT_Timer;
+				PRODUCT_NAME = BT_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DF3F6BD1140A8E444354B790860B6FB /* Build configuration list for PBXNativeTarget "Pods-BT-Timer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6F001A29560C18FAC5D92D3B387C3E4 /* Debug */,
+				0FF35ED5EE5C23D522E788309A49AB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBB5ABA76A55A3531134058CAAACDEF /* Build configuration list for PBXNativeTarget "BT-Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F57C17BEEC950AD3642D53BE88C6BF /* Debug */,
+				4A3587C6EA23C4AE0A781FBE0EB07EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9A9AA92D8C59E144943646483E74168 /* Build configuration list for PBXNativeTarget "Pods-BT-Timer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D93E0157A089F8D97BAD765A603DB23 /* Debug */,
+				39FF6131912C3B23E8CF84EEAEA5F358 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

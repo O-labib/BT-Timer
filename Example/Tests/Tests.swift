@@ -1,5 +1,5 @@
 import XCTest
-import BT-Timer
+import BT_Timer
 
 class Tests: XCTestCase {
     
