@@ -4,10 +4,15 @@
 [![License](https://img.shields.io/cocoapods/l/BT-Timer.svg?style=flat)](https://cocoapods.org/pods/BT-Timer)
 [![Platform](https://img.shields.io/cocoapods/p/BT-Timer.svg?style=flat)](https://cocoapods.org/pods/BT-Timer)
 
-## Timer
+[Timer](#timer)
+[Stopwatch](#stopwatch)
+
+
+
+# Timer
 ![Alt Text](https://media.giphy.com/media/ZXeHQZzYYhHZIosaSt/giphy.gif)
 
-#### Setup
+### Setup
 **1- Initialize** BTtimer specifying...
 - The label it should be linked to.
 - The time it should countdown.
@@ -40,10 +45,10 @@ extension UIViewController : BTtimerDelegate {
     public func didTimeOut() { }
 }
 ```
-## Stopwatch
+# Stopwatch
 ![Alt Text](https://media.giphy.com/media/Y2tTdRujHE9RpZuEL2/giphy.gif)
 
-#### Setup
+### Setup
 **1- Initialize** BTstopwatch specifying...
 - The label it should be linked to.
 - whether the label should be animating or not.
