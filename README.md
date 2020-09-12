@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/BT-Timer.svg?style=flat)](https://cocoapods.org/pods/BT-Timer)
 
 [Timer](#timer)
+
 [Stopwatch](#stopwatch)
 
 
