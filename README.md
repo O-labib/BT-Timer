@@ -41,7 +41,7 @@ extension UIViewController : BTtimerDelegate {
     
     public func didTick(with secondsLeft: Int) { }
     
-    public func ditTimeOutWhileInBackground(since secondsPassed: Int) { }
+    public func didTimeOutWhileInBackground(since secondsPassed: Int) { }
     
     public func didTimeOut() { }
 }

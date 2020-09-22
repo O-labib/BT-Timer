@@ -11,13 +11,13 @@ public protocol BTtimerDelegate {
     func didStart()
     func didTimeOut()
     func didTick(with secondsLeft : Int)
-    func ditTimeOutWhileInBackground(since secondsPassed : Int)
+    func didTimeOutWhileInBackground(since secondsPassed : Int)
 }
 
 extension BTtimerDelegate {
     func didStart() {}
     func didTimeOut() {}
-    func ditTimeOutWhileInBackground(since secondsPassed : Int) {}
+    func didTimeOutWhileInBackground(since secondsPassed : Int) {}
     func didTick(with secondsLeft : Int){}
 }
 
@@ -209,7 +209,7 @@ public class BTtimer: NSObject {
         
         timerLabel.text = 0.toPrettyTimeRemaining()
         self.timer?.invalidate()
-        delegate?.ditTimeOutWhileInBackground(since: -(timeRemainingInSecs))
+        delegate?.didTimeOutWhileInBackground(since: -(timeRemainingInSecs))
     }
     func resumeTimerAfterReturningToForeground(){
         fireTimer()
