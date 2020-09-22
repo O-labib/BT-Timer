@@ -11,7 +11,9 @@
 
 
 # Timer
-![Alt Text](https://media.giphy.com/media/ZXeHQZzYYhHZIosaSt/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/ZXeHQZzYYhHZIosaSt/giphy.gif">
+</p>
 
 ### Setup
 **1- Initialize** BTtimer specifying...
@@ -47,7 +49,9 @@ extension UIViewController : BTtimerDelegate {
 }
 ```
 # Stopwatch
-![Alt Text](https://media.giphy.com/media/Y2tTdRujHE9RpZuEL2/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/Y2tTdRujHE9RpZuEL2/giphy.gif">
+</p>
 
 ### Setup
 **1- Initialize** BTstopwatch specifying...
