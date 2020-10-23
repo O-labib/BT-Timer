@@ -14,7 +14,7 @@ public protocol BTtimerDelegate {
     func didTimeOutWhileInBackground(since secondsPassed : Int)
 }
 
-extension BTtimerDelegate {
+public extension BTtimerDelegate {
     func didStart() {}
     func didTimeOut() {}
     func didTimeOutWhileInBackground(since secondsPassed : Int) {}
